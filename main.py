@@ -16,7 +16,7 @@ BOT_TOKEN = config.tg_bot.token
 # Инициализируем хранилище (создаем экземпляр класса MemoryStorage)
 storage = MemoryStorage()
 
-# Создаем объекты бота и диспетчера
+# Создаем объекты бота и диспетчера vh
 bot = Bot(BOT_TOKEN)
 dp = Dispatcher(storage=storage)
 
