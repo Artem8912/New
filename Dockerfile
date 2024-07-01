@@ -4,6 +4,6 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /FSM_States_bot
 COPY requirements.txt .
 RUN pip install --no-cache -r /FSM_States_bot/requirements.txt
-COPY bot /FSM_States_bot/bot
+# COPY fsm /FSM_States_bot/fsm
 CMD ["python", "-m", "bot"]
 # 
