@@ -6,3 +6,4 @@ COPY requirements.txt .
 RUN pip install --no-cache -r /FSM_States_bot/requirements.txt
 COPY bot /FSM_States_bot/bot
 CMD ["python", "-m", "bot"]
+# 
